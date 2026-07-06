@@ -1,6 +1,6 @@
 import java.util.*;
 import java.lang.Math;
-public class Main
+public class Calender
 {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
@@ -95,5 +95,7 @@ public class Main
 	        System.out.println("Saturday");
 	        break;
 	}
+		// close the Scanner to avoid resource leak
+		sc.close();
 }
 }
